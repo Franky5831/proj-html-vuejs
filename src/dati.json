@@ -1,0 +1,11 @@
+{
+    "headerLink": [
+        ["home", "insideHome"],
+        ["page"],
+        ["courses"],
+        ["features"],
+        ["blog"],
+        ["shop"]
+    ]
+    
+}
