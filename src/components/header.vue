@@ -14,6 +14,13 @@
             </form>
         </ul>
     </section>
+    <section id="headerHero">
+        <span id="headerHeroText">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloremque sint reprehenderit nesciunt aliquid praesentium dolores aut expedita, voluptas quidem.</h2>
+        </span>
+        <img src="../assets/images/home-5-hero-image.png" alt="">
+    </section>
 
 </header>
 </template>
@@ -47,5 +54,19 @@ export default {
         display: flex;
         gap: 10px;
     }
+}
+#headerHero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    width: 100%;
+    #headerHeroText{
+    width: 35%;
+    h1{
+        font-size: 40px;
+    }
+    }
+
 }
 </style>
