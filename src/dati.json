@@ -6,6 +6,31 @@
         ["features"],
         ["blog"],
         ["shop"]
+    ],
+    "buildTeam": [
+        {"image": "home-5-image-box-01.png",
+        "title": "Idea Discussion",
+        "text": "lorem"},
+
+        {"image": "home-5-image-box-02.png",
+        "title": "Web Development",
+        "text": "lorem"},
+
+        {"image": "home-5-image-box-03.png",
+        "title": "System Administration",
+        "text": "lorem"},
+
+        {"image": "home-5-image-box-04.png",
+        "title": "Graphic Design",
+        "text": "lorem"}
+    ],
+    "constructCards": [
+        {"title": "multiple patforms supported for teaching and studyng",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero iste id laborum repellat, magni facilis reprehenderit impedit ut eligendi magnam?"},
+        {"title": "multiple course participation at the same time",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero iste id laborum repellat, magni facilis reprehenderit impedit ut eligendi magnam?"},
+        {"title": "track study proggers and deliver propt feedback",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero iste id laborum repellat, magni facilis reprehenderit impedit ut eligendi magnam?"}
     ]
     
 }
