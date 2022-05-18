@@ -6,6 +6,9 @@
         <build-cards/>
         <construct-box/>
         <featured-cards/>
+        <learn-box/>
+        <events-cards/>
+        <influencers-cards/>
     </section>
 </main>
 </template>
@@ -15,13 +18,19 @@
 import buildCards from './buildCards.vue';
 import constructBox from './constructBox.vue';
 import featuredCards from './featuredCards.vue';
+import learnBox from './learnBox.vue'
+import eventsCards from './eventsCards.vue'
+import influencersCards from './influencersCards.vue'
 
 export default{
     name: 'AppMain',
     components:{
         buildCards,
         constructBox,
-        featuredCards
+        featuredCards,
+        learnBox,
+        eventsCards,
+        influencersCards
     },
     data(){},
 }
@@ -29,7 +38,7 @@ export default{
 </script>
 
 <style scoped lang="scss">
-
+@import "../styles/vars.scss";
 
 
 #buildDreamSec{
@@ -39,7 +48,7 @@ export default{
 }
 .button{
     color: white;
-    background-color: #20AD96;
+    background-color: $green-water;
 }
 
 </style>

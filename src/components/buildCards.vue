@@ -4,7 +4,7 @@
             <img :src="require('../assets/images/'+ elements.image)">
             <h1>{{elements.title}}</h1>
             <h2>{{elements.text}}</h2>
-            <a href="#">start now</a>
+            <a href="#"><span class="title">start now</span></a>
         </li>
     </ul>
 </template>
@@ -24,8 +24,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../styles/vars.scss";
+
 ul{
-    background-color: green;
     display: flex;
     justify-content: space-evenly;
     li{

@@ -43,6 +43,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../styles/vars.scss";
+
 #searchBar{
     display: flex;
     justify-content: space-between;
@@ -59,7 +61,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
     width: 100%;
     #headerHeroText{
     width: 35%;

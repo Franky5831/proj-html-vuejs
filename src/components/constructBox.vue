@@ -4,7 +4,7 @@
     <img src="../assets/images/about-us-03-image-01.png" alt="">
     <section id="constructText">
       <h2>dream with maxcoach</h2>
-      <h1>construct a stunning career prospective</h1>
+      <h1><span class="title">construct a stunning career prospective</span></h1>
       <ul>
         <li v-for="elements in datiMiei.constructCards" :key="elements">
           <div class="constructCardTop">{{elements.title}}</div>
@@ -49,6 +49,8 @@ export default {
 
 
 <style lang="scss" scoped>
+@import "../styles/vars.scss";
+
 #construct{
   display: flex;
 }

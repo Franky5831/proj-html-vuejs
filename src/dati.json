@@ -81,6 +81,60 @@
         "lessonsNumber": "14",
         "lessonsStudents": "76"
         }
+    ],
+    "dates": [
+        {"eventName": "storytelling workshop",
+        "location": "Texas, US",
+        "date": {
+            "day": "22",
+            "month": "nov"}
+        },
+        {"eventName": "painting art contest 2022",
+        "location": "New York, US",
+        "date": {
+            "day": "10",
+            "month": "oct"}
+        },
+        {"eventName": "international art fair 2022",
+        "location": "Hamburg, Germany",
+        "date": {
+            "day": "23",
+            "month": "nov"}
+        },
+        {"eventName": "street performance: call for artist",
+        "location": "Illinois, US",
+        "date": {
+            "day": "15",
+            "month": "dec"}
+        },
+        {"eventName": "consumer food safety education conference",
+            "location": "Illinois, US",
+            "date": {
+            "day": "22",
+            "month": "jul"}
+        },
+        {"eventName": "how meditation improve your mental healy?",
+        "location": "Dubai",
+        "date": {
+            "day": "12",
+            "month": "aug"}
+        }
+    ],
+    "users": [
+        {"name": "mina hollace",
+        "job": "Freelancer",
+        "image": "testimonial-avata-02.jpg",
+        "userPara": "some text here"
+        },
+        {"name": "madley pondor",
+        "job": "IT specialist",
+        "image": "testimonial-avata-04.jpg",
+        "userPara": "some text here"
+        },
+        {"name": "luvic dubble",
+        "job": "Private Tutor",
+        "image": "testimonial-avata-01.jpg",
+        "userPara": "some text here"
+        }
     ]
-    
 }

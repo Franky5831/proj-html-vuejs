@@ -29,6 +29,7 @@ export default {
 
 <style lang="scss">
 *{
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,6 +38,20 @@ export default {
 #app{
   max-width: 1200px;
   margin: 0 auto;
-  background-color: red;
+}
+
+
+.button {
+  border-radius: 5px;
+  background-color: #20AD96;
+  border: none;
+  color: white;
+  padding: 18px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 8px 4px;
+  cursor: pointer;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 <section id="featuredCards">
     <h2>choose where you'd like to begin</h2>
-    <h1>latest featured courses</h1>
+    <h1><span class="title">latest featured courses</span></h1>
     <ul>
       <li v-for="element in datiMiei.courses" :key="element">
         <div class="courseImage" style="background-color: orange" v-bind:style="{ 'background-image': 'url(' + '../assets/images/'+  element.courseImage + ')' }">
@@ -39,11 +39,7 @@ export default {
 
 
 <style lang="scss" scoped>
-
-h1:first-letter{
-  text-transform: uppercase;
-}
-
+@import "../styles/vars.scss";
 
 #featuredCards{
   display: flex;
@@ -65,7 +61,7 @@ ul{
   align-items: flex-start;
   justify-content: flex-end;
   .price{
-  background-color: #20AD96;
+  background-color: $green-water;
   padding: 12px 30px;
   border: none;
   color: white;
@@ -88,18 +84,6 @@ ul{
 
 
 
-.button {
-  border-radius: 5px;
-  background-color: #20AD96;
-  border: none;
-  color: white;
-  padding: 18px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 8px 4px;
-  cursor: pointer;
-}
+
 
 </style>
