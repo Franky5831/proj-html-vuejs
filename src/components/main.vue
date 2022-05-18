@@ -34,5 +34,9 @@ export default{
         text-align: center;
     }
 }
+.button{
+    color: white;
+    background-color: #20AD96;
+}
 
 </style>

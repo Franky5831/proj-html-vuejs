@@ -39,7 +39,7 @@
         "courseImage": "course-02-480x298.jpg",
         "coursePrice": "40",
         "lessonsNumber": "20",
-        "lessonStudents": "50"
+        "lessonsStudents": "50"
         },
         {"title": "customer-centric info-tech strategies",
         "authorName": "maggie strickland",
@@ -47,7 +47,7 @@
         "courseImage": "stock-full-hd-03-480x298.jpg",
         "coursePrice": "free",
         "lessonsNumber": "24",
-        "lessonStudents": "769"
+        "lessonsStudents": "769"
         },
         {"title": "open programming courses for everyone: python",
         "authorName": "maggie strickland",
@@ -55,7 +55,7 @@
         "courseImage": "stock-full-hd-04-480x298.jpg",
         "coursePrice": "19",
         "lessonsNumber": "17",
-        "lessonStudents": "62"
+        "lessonsStudents": "62"
         },
         {"title": "accademic listenign and note tracking",
         "authorName": "blanche fields",
@@ -63,7 +63,7 @@
         "courseImage": "stock-full-hd-06-480x298.jpg",
         "coursePrice": "26",
         "lessonsNumber": "14",
-        "lessonStudents": "67"
+        "lessonsStudents": "67"
         },
         {"title": "mister jquery in a short pperiod of time",
         "authorName": "blanche fields",
@@ -71,7 +71,7 @@
         "courseImage": "course-featured-image-01-480x298.jpg",
         "coursePrice": "39",
         "lessonsNumber": "6",
-        "lessonStudents": "51"
+        "lessonsStudents": "51"
         },
         {"title": "itroduction to javascript for beginners",
         "authorName": "blanche fields",
@@ -79,7 +79,7 @@
         "courseImage": "stock-full-hd-05-480x298.jpg",
         "coursePrice": "59",
         "lessonsNumber": "14",
-        "lessonStudents": "76"
+        "lessonsStudents": "76"
         }
     ]
     
