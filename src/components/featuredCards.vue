@@ -39,6 +39,12 @@ export default {
 
 
 <style lang="scss" scoped>
+
+h1:first-letter{
+  text-transform: uppercase;
+}
+
+
 #featuredCards{
   display: flex;
   flex-direction: column;

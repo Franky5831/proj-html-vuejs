@@ -29,6 +29,9 @@ export default{
 </script>
 
 <style scoped lang="scss">
+
+
+
 #buildDreamSec{
     >h1{
         text-align: center;
