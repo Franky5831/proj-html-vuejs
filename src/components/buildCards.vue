@@ -1,4 +1,5 @@
 <template>
+<div class="widthContainer">
     <ul>
         <li v-for="elements in datiMiei.buildTeam" :key="elements">
             <img :src="require('../assets/images/'+ elements.image)">
@@ -7,6 +8,9 @@
             <a href="#"><span class="title">start now</span></a>
         </li>
     </ul>
+    <div class="spacer"></div>
+</div>
+
 </template>
 
 <script>
@@ -25,7 +29,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../styles/general.scss";
-
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -34,10 +37,14 @@ ul{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        align-items: center;
         img{
-            max-height:250px;
-            width: auto;
+            max-width:150px;
+            height: auto;
         }
     }
+}
+a{
+    text-decoration: none;
 }
 </style>

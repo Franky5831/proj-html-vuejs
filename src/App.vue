@@ -2,13 +2,14 @@
   <div id="app">
     <app-header />
     <app-main />
+    <app-footer />
   </div>
 </template>
 
 <script>
 import AppHeader from './components/header.vue'
 import AppMain from './components/main.vue'
-//import AppFooter from './components/footer.vue'
+import AppFooter from './components/footer.vue'
 import dati from './dati.json'
 
 
@@ -19,7 +20,8 @@ export default {
   name: 'App',
   components:{
     AppHeader,
-    AppMain
+    AppMain,
+    AppFooter
   },
   data(){
     return{
@@ -39,7 +41,7 @@ export default {
   box-sizing: border-box;
   list-style-type: none;
 }
-#app{
+.widthContainer{
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -57,5 +59,9 @@ export default {
   font-size: 18px;
   margin: 8px 4px;
   cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }
 </style>

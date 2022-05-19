@@ -1,7 +1,7 @@
 <template>
-<div>
+<div class="widthContainer">
     <h2>people are praising maxcoach</h2>
-    <h1><span class="title">what make they love us?</span></h1>
+    <h1><span class="title">what make they <span class="accent">love us?</span></span></h1>
     <div id="cards">
         <ul>
             <li v-for="element in datiMiei.users" :key="element">
@@ -12,6 +12,11 @@
             </li>
         </ul>
     </div>
+    <h2>Start today for getting online certification</h2>
+    <h1>You can be your own guiding star with our help!</h1>
+    <div class="aba"><button class="myButton">get started for free</button></div>
+    <div class="spacer"></div>
+
 </div>
 </template>
 
@@ -43,6 +48,11 @@ export default {
             border-radius: 50%;
         }
     }
+}
+.aba{
+    position: relative;
+    left: calc(50% - 100px);
+    width: 250px;
 }
 
 </style>

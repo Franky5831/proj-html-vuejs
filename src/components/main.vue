@@ -1,8 +1,10 @@
 <template>
 <main>
     <section id="buildDreamSec">
-        <h2>start learning coding languages</h2>
-        <h1>build your dream today</h1>
+        <div class="widthContainer">
+            <h2 class="smallTitle" style="margin-top: 80px;">start learning coding languages</h2>
+            <h1><span class="title">Build Your Dream <span class="accent">TODAY</span></span></h1>
+        </div>
         <build-cards/>
         <construct-box/>
         <featured-cards/>
@@ -39,11 +41,14 @@ export default{
 
 <style scoped lang="scss">
 @import "../styles/general.scss";
-
-
 #buildDreamSec{
-    >h1{
-        text-align: center;
+    .widthContainer{
+        >h1, >h2{
+            text-align: center;
+        }
+        >h1{
+            margin-bottom: 60px;
+        }
     }
 }
 .myButton{

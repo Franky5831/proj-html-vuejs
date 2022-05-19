@@ -36,7 +36,7 @@
         {"title": "learning to write as a professional author",
         "authorName": "Blanche Fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
-        "courseImage": "course-02-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976749922063896676/course-02-480x298.jpg",
         "coursePrice": "$40.00",
         "lessonsNumber": "20",
         "lessonsStudents": "50"
@@ -44,7 +44,7 @@
         {"title": "customer-centric info-tech strategies",
         "authorName": "maggie strickland",
         "authorImage": "d0d504142acfde820eef2f11feea6253 (1).jpeg",
-        "courseImage": "stock-full-hd-03-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976749951352713226/stock-full-hd-03-480x298.jpg",
         "coursePrice": "free",
         "lessonsNumber": "24",
         "lessonsStudents": "769"
@@ -52,7 +52,7 @@
         {"title": "open programming courses for everyone: python",
         "authorName": "maggie strickland",
         "authorImage": "d0d504142acfde820eef2f11feea6253 (1).jpeg",
-        "courseImage": "stock-full-hd-04-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976749965420425246/stock-full-hd-04-480x298.jpg",
         "coursePrice": "$19.00",
         "lessonsNumber": "17",
         "lessonsStudents": "62"
@@ -60,7 +60,7 @@
         {"title": "accademic listenign and note tracking",
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
-        "courseImage": "stock-full-hd-06-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976749993299955732/stock-full-hd-06-480x298.jpg",
         "coursePrice": "$26.00",
         "lessonsNumber": "14",
         "lessonsStudents": "67"
@@ -68,7 +68,7 @@
         {"title": "mister jquery in a short pperiod of time",
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
-        "courseImage": "course-featured-image-01-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976750056373878784/course-featured-image-01-480x298.jpg",
         "coursePrice": "$39.00",
         "lessonsNumber": "6",
         "lessonsStudents": "51"
@@ -76,7 +76,7 @@
         {"title": "itroduction to javascript for beginners",
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
-        "courseImage": "stock-full-hd-05-480x298.jpg",
+        "courseImage": "https://cdn.discordapp.com/attachments/824615274413817866/976750073230790666/stock-full-hd-05-480x298.jpg",
         "coursePrice": "$59.00",
         "lessonsNumber": "14",
         "lessonsStudents": "76"
@@ -136,5 +136,28 @@
         "image": "testimonial-avata-01.jpg",
         "userPara": "some text here"
         }
-    ] 
+    ],
+    "footer":{
+        "address": [
+            "382 NE 191st St # 87394 Miami, FL 33179-3899",
+            "+1(305)547-9909 (9am - 5pm EST, Monday - Friday)",
+            "support@maxcoach.com"
+        ],
+        "links":[
+            [
+                "Explore",
+                "start here",
+                "Blog",
+                "about us",
+                "story"
+            ],
+            [
+                "Information",
+                "Membership",
+                "Purchase guide",
+                "Privacy policy",
+                "Terms of service"
+            ]
+        ]
+    }
 }

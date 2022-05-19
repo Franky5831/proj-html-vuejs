@@ -1,7 +1,7 @@
 <template>
-<div>
+<div class="widthContainer">
     <h2>get in contact now</h2>
-    <h1><span class="title">upcoming events</span></h1>
+    <h1><span class="title">upcoming <span class="accent">events</span></span></h1>
     <ul>
         <li class="dateCard" v-for="elemento in datiMiei.dates" :key="elemento">
             <div class="dateCardLeft">
@@ -18,6 +18,7 @@
         </li>
     </ul>
     <h2>excited about our event? view all events</h2>
+    <div class="spacer"></div>
 </div>
 </template>
 

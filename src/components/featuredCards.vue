@@ -1,10 +1,10 @@
 <template>
-<section id="featuredCards">
+<section id="featuredCards" class="widthContainer">
     <h2>choose where you'd like to begin</h2>
-    <h1><span class="title">latest featured courses</span></h1>
+    <h1><span class="title">latest featured <span class="accent">courses</span></span></h1>
     <ul>
       <li v-for="element in datiMiei.courses" :key="element">
-        <div class="courseImage" style="background-color: orange" :style="{ 'background-image': 'url(../assets/images/' + element.courseImage + ')' }">
+        <div class="courseImage" :style="{ 'background-image': 'url('+element.courseImage+')' }">
           <span class="price">{{element.coursePrice}}</span>
         </div>
         <div class="textBox">
@@ -21,6 +21,7 @@
       </li>
     </ul>
     <button class="myButton">view all courses</button>
+    <div class="spacer"></div>
 </section>
 </template>
 
@@ -56,6 +57,9 @@ ul{
   }
 }
 .courseImage{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 13vw;
   border-radius: 5px;
   display: flex;

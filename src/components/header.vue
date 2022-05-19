@@ -1,6 +1,7 @@
 <template>
 <header>
-    <section id="searchBar">
+    <div class="widthContainer">
+        <section id="searchBar">
         <img src="../assets/images/dark-logo.png" alt="">
         <div id="dropdownsSec">
             <div class="dropdown" v-for="element in datiMiei.headerLink" :key="element">
@@ -14,24 +15,22 @@
             </div>
         </div>
         <form>
-          <input />
+          <input placeholder="Search..." />
           <button>Go</button>
         </form>
         </div>
     </section>
     <section id="headerHero">
         <span id="headerHeroText">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloremque sint reprehenderit nesciunt aliquid praesentium dolores aut expedita, voluptas quidem.</h2>
+            <h1><span class="title">Complete Your Dreams in JavaS Programming</span></h1>
+            <h2>Learn any coding program in distance and for a resonable fee. You don't have to struggle alone, you've got our assistance and help.</h2>
+            <button class="myButton">Download free E-book</button>
         </span>
         <img src="../assets/images/home-5-hero-image.png" alt="">
 
     </section>
-
-
-
-
-
+    <div class="spacer"></div>
+    </div>
 </header>
 </template>
 
@@ -54,17 +53,29 @@ export default {
 
 <style scoped lang="scss">
 @import "../styles/general.scss";
+header{
+    background-image: url('../assets/images/headerBackDIY.png');
+}
 form{
     height: 40px;
     input{
         height: 100%;
+        border-radius: 5px 0 0 5px;
+        border: 0;
+        padding-left: 20px; 
     }
     button{
         height: 100%;
         width: 40px;
+        border-radius: 0 5px 5px 0;
+        border: 0;
+        color: $green-water;
     }
 }
-
+h2{
+    font-size: 18px;
+    color: #9D9AAE;
+}
 
 #dropdownsSec{
     display: flex;
@@ -73,6 +84,7 @@ form{
 }
 
 #searchBar{
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,10 +102,13 @@ form{
     justify-content: space-between;
     width: 100%;
     #headerHeroText{
-    width: 35%;
-    h1{
-        font-size: 40px;
-    }
+        h1, h2, button{
+            margin: 20px 0;
+        }
+        width: 35%;
+        h1{
+            font-size: 40px;
+        }
     }
 
 }

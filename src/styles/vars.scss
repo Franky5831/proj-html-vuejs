@@ -3,4 +3,37 @@ $purplish: #3F3A64;
 
 span.title{
     color: $purplish;
+    font-weight: 900;
+
+    ::first-letter{
+        text-transform: uppercase;
+    }
+}
+span.accent{
+    color: $green-water;
+    font-weight: 200;
+}
+.smallTitle{
+    color: #333333;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+div.spacer{
+    height: 150px;
+}
+.widthContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+a{
+    text-decoration: none;
+
 }
