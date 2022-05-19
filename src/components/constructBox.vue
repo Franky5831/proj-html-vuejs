@@ -7,8 +7,8 @@
           <h2>dream with maxcoach</h2>
           <h1><span class="title">construct a <span class="accent">stunning</span> career prospective</span></h1>
           <ul>
-            <li v-for="elements in datiMiei.constructCards" :key="elements" @click="btnPress()">
-              <div class="constructCardTop">{{elements.title}}</div>
+            <li v-for="elements in datiMiei.constructCards" :key="elements" id="constructBoxCont">
+              <div class="constructCardTop">{{elements.title}} <i class="fa-solid fa-circle-minus"></i></div>
               <div class="constructCardBottom">{{elements.description}}</div>
             </li>
           </ul>
@@ -60,6 +60,14 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/general.scss";
+#constructBoxCont{
+  div:first-child{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3rem;
+  }
+}
 #constructBlock{
   display: flex;
   flex-direction: row;

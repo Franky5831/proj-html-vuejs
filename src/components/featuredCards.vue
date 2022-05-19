@@ -14,13 +14,13 @@
           </div>
           <h1>{{element.title}}</h1>
           <div class="infoBox">
-            <span>{{element.lessonsNumber}}</span>
-            <span>{{element.lessonsStudents}}</span>
+            <span><i class="fa-solid fa-newspaper"></i> {{element.lessonsNumber}} Lessons</span>
+            <span><i class="fa-solid fa-user"></i> {{element.lessonsStudents}} Students</span>
           </div>
         </div>
       </li>
     </ul>
-    <button class="myButton">view all courses</button>
+    <button class="myButton">view all courses <i class="fa-solid fa-arrow-right"></i></button>
     <div class="spacer"></div>
 </section>
 </template>

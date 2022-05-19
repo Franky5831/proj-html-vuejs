@@ -24,7 +24,7 @@
         <span id="headerHeroText">
             <h1><span class="title">Complete Your Dreams in JavaS Programming</span></h1>
             <h2>Learn any coding program in distance and for a resonable fee. You don't have to struggle alone, you've got our assistance and help.</h2>
-            <button class="myButton">Download free E-book</button>
+            <button class="myButton"><i class="fa-solid fa-download"></i> Download free E-book</button>
         </span>
         <img src="../assets/images/home-5-hero-image.png" alt="">
 

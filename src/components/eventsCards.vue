@@ -5,7 +5,7 @@
     <ul>
         <li class="dateCard" v-for="elemento in datiMiei.dates" :key="elemento">
             <div class="dateCardLeft">
-                <h2>{{elemento.location}}</h2>
+                <h2><i class="fa-solid fa-location-dot"></i> {{elemento.location}}</h2>
                 <h1>{{elemento.eventName}}</h1>
             </div>
             <div class="dateCardRight">
@@ -17,7 +17,7 @@
             </div>
         </li>
     </ul>
-    <h2>excited about our event? view all events</h2>
+    <h2>excited about our event? <a href="#">view all events <i class="fa-solid fa-arrow-right"></i></a></h2>
     <div class="spacer"></div>
 </div>
 </template>
@@ -44,6 +44,15 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/general.scss";
 
+h2{
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    a{
+        color: $green-water !important;
+    }
+}
+
+
 .widthContainer{
     text-align: center;
 }
@@ -58,15 +67,31 @@ ul{
     gap: 40px 0;
 
     .dateCard{
-        background-color: red;
+        text-align: left;
         padding: 30px 0;
         display: flex;
         flex-direction: row;
         width: 40%;
         .dateCardLeft{
             width: 60%;
+            h2{
+                font-size: 14px;
+                color: rgb(77, 77, 77);
+            }
+            h1{
+                font-size: 20px;
+                color: black;
+                font-weight: 600;
+            }
         }
         .dateCardRight{
+            h1{
+                color: $green-water;
+            }
+            h2{
+                text-transform: uppercase;
+                font-size: 18px;
+            }
             width: 40%;
             display: flex;
             flex-direction: row-reverse;

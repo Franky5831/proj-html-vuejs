@@ -3,16 +3,16 @@
     <div>
         <div id="footerLeft">
             <ul class="ULlist">
-                <li>Addresses</li>
+                <li>Address</li>
                 <li v-for="element in datiMiei.footer.address" :key="element">
                     {{element}}
                 </li>
                 <li style="margin-top: 30px"> 
                     <ul id="socials">
-                        <li>FB</li>
-                        <li>FB</li>
-                        <li>FB</li>
-                        <li>FB</li>
+                        <li><i class="fa-brands fa-facebook-square"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
                     </ul>
                 </li>
             </ul>
@@ -29,7 +29,7 @@
             </ul>
         </div>
     </div>
-    <h2>2020 Maxcoach. All Rights Reserved</h2>
+    <h2><i class="fa-solid fa-copyright"></i> 2020 Maxcoach. All Rights Reserved</h2>
 
 
 </footer>
