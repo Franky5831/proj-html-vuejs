@@ -30,7 +30,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 #cards{
     ul{

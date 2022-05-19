@@ -38,7 +38,7 @@ export default{
 </script>
 
 <style scoped lang="scss">
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 
 #buildDreamSec{
@@ -46,7 +46,7 @@ export default{
         text-align: center;
     }
 }
-.button{
+.myButton{
     color: white;
     background-color: $green-water;
 }

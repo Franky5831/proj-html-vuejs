@@ -12,7 +12,7 @@
                 <div class="dateCardRightContent">
                     <h1>{{elemento.date.day}}</h1>
                     <h2>{{elemento.date.month}}</h2>
-                    <button class="button">get ticket</button>
+                    <button class="myButton">get ticket</button>
                 </div>
             </div>
         </li>
@@ -41,7 +41,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 ul{
     display: flex;

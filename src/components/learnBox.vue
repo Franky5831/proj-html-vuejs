@@ -13,7 +13,7 @@
         </section>
         <img src="../assets/images/home-5-image-01.png" alt="">
     </div>
-        <div class="aba"><button class="button">get started for free</button></div>
+        <div class="aba"><button class="myButton">get started for free</button></div>
 
 
     <div id="learn" class="learn2">
@@ -22,7 +22,7 @@
             <h2>why hesitate to register?</h2>
             <h1><span class="title">learn at your own pace</span></h1>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas corrupti adipisci dolorem sit alias, officiis porro ratione temporibus nihil!</h3>
-            <button class="button">download our own app</button>
+            <button class="myButton">download our own app</button>
         </section>
     </div>
 
@@ -44,7 +44,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 #box{
     display: flex;

@@ -11,6 +11,10 @@ import AppMain from './components/main.vue'
 //import AppFooter from './components/footer.vue'
 import dati from './dati.json'
 
+
+
+
+
 export default {
   name: 'App',
   components:{
@@ -41,8 +45,8 @@ export default {
 }
 
 
-.button {
-  border-radius: 5px;
+.myButton {
+  border-radius: 5px !important;
   background-color: #20AD96;
   border: none;
   color: white;

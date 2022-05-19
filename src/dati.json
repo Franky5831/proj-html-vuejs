@@ -37,7 +37,7 @@
         "authorName": "Blanche Fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         "courseImage": "course-02-480x298.jpg",
-        "coursePrice": "40",
+        "coursePrice": "$40.00",
         "lessonsNumber": "20",
         "lessonsStudents": "50"
         },
@@ -53,7 +53,7 @@
         "authorName": "maggie strickland",
         "authorImage": "d0d504142acfde820eef2f11feea6253 (1).jpeg",
         "courseImage": "stock-full-hd-04-480x298.jpg",
-        "coursePrice": "19",
+        "coursePrice": "$19.00",
         "lessonsNumber": "17",
         "lessonsStudents": "62"
         },
@@ -61,7 +61,7 @@
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         "courseImage": "stock-full-hd-06-480x298.jpg",
-        "coursePrice": "26",
+        "coursePrice": "$26.00",
         "lessonsNumber": "14",
         "lessonsStudents": "67"
         },
@@ -69,7 +69,7 @@
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         "courseImage": "course-featured-image-01-480x298.jpg",
-        "coursePrice": "39",
+        "coursePrice": "$39.00",
         "lessonsNumber": "6",
         "lessonsStudents": "51"
         },
@@ -77,7 +77,7 @@
         "authorName": "blanche fields",
         "authorImage": "73ee246daf47502812ccefc84bf02898 (1).jpeg",
         "courseImage": "stock-full-hd-05-480x298.jpg",
-        "coursePrice": "59",
+        "coursePrice": "$59.00",
         "lessonsNumber": "14",
         "lessonsStudents": "76"
         }
@@ -136,5 +136,5 @@
         "image": "testimonial-avata-01.jpg",
         "userPara": "some text here"
         }
-    ]
+    ] 
 }

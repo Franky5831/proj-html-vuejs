@@ -4,7 +4,7 @@
     <h1><span class="title">latest featured courses</span></h1>
     <ul>
       <li v-for="element in datiMiei.courses" :key="element">
-        <div class="courseImage" style="background-color: orange" v-bind:style="{ 'background-image': 'url(' + '../assets/images/'+  element.courseImage + ')' }">
+        <div class="courseImage" style="background-color: orange" :style="{ 'background-image': 'url(../assets/images/' + element.courseImage + ')' }">
           <span class="price">{{element.coursePrice}}</span>
         </div>
         <div class="textBox">
@@ -20,7 +20,7 @@
         </div>
       </li>
     </ul>
-    <button class="button">view all courses</button>
+    <button class="myButton">view all courses</button>
 </section>
 </template>
 
@@ -39,7 +39,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 #featuredCards{
   display: flex;
@@ -51,9 +51,11 @@ ul{
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  li{
+      width: 30%;
+  }
 }
 .courseImage{
-  width: 20vw;
   height: 13vw;
   border-radius: 5px;
   display: flex;

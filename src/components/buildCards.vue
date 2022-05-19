@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../styles/vars.scss";
+@import "../styles/general.scss";
 
 ul{
     display: flex;
@@ -35,7 +35,8 @@ ul{
         justify-content: center;
         text-align: center;
         img{
-            max-height:200px;
+            max-height:250px;
+            width: auto;
         }
     }
 }
