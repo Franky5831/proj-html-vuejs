@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./styles/general.scss";
+
 *{
   font-family: Arial, sans-serif;
   margin: 0;

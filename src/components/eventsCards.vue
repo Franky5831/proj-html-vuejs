@@ -44,6 +44,12 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/general.scss";
 
+.widthContainer{
+    text-align: center;
+}
+
+
+
 ul{
     display: flex;
     flex-direction: row;
@@ -52,6 +58,7 @@ ul{
     gap: 40px 0;
 
     .dateCard{
+        background-color: red;
         padding: 30px 0;
         display: flex;
         flex-direction: row;

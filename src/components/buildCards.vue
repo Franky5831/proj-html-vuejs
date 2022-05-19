@@ -5,7 +5,7 @@
             <img :src="require('../assets/images/'+ elements.image)">
             <h1>{{elements.title}}</h1>
             <h2>{{elements.text}}</h2>
-            <a href="#"><span class="title">start now</span></a>
+            <a href="#"><span class="title"><font-awesome-icon icon="fa-solid fa-hat-wizard" />start now</span></a>
         </li>
     </ul>
     <div class="spacer"></div>
